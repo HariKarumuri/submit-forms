@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>survey form</title>
+</head>
+<body>
+
+        <section id="forms" class="forms">
+    <form action="" >
+        <div class="name">
+            <label for="name">name</label>
+            <input type="text"  placeholder="enter your name" required>
+        </div>
+        <div class="device">
+            <label for="device">what device do you have:</label>
+            <div class="laptop1">
+            <input type="checkbox" id="laptop" name="device" value="laptop">
+            <label for="laptop">laptop</label></div>
+            <div class="mobile1">
+            <input type="checkbox" id="mobile" name="device" value="mobile">
+            <label for="mobile">mobile</label></div>
+            <div class="tablet1">
+            <input type="checkbox" id="tablet" name="device" value="tablet">
+            <label for="tablet">tablet</label></div>
+        </div>
+        
+        <!--if laptop is true then following-->
+        <div class="laptop">
+            <label for="laptop-brand">which laptop do you use</label><br>
+            <select name="laptop-brand" id="laptop-brand">
+                <option value="">-select-</option>
+                <option value="">hp</option>
+                <option value="">apple</option>
+                <option value="">dell</option>
+                <option value="" >samsung</option>
+                <option value="">i dont have</option>
+                <option value="">msi</option>
+                <option value="">aser</option>
+                <option value="">asus</option>
+                <option value="">others</option>
+            </select>
+
+        </div>
+        <!--if mobile is selected then following-->
+        <div class="mobile">
+            <label for="mobile-brands">which mobile do you use</label><br>
+            <select name="mobile-brand" id="mobile-brand">
+                <option value="">-select-</option>
+                <option value="">samsung</option>
+                <option value="">mi</option>
+                <option value="">apple</option>
+                <option value="">others</option>
+                <option value="">realme</option>
+                <option value="">oppo</option>
+                <option value="">honor</option>
+                <option value="">oneplus</option>
+            </select>
+            </div>
+
+       <div class="tablet">
+        <label for="tablet-brands">which tablet do you use</label><br>
+        <select name="tablet-brand" id="tablet-brand">
+            <option value="">-select-</option>
+            <option value="">samsung</option>
+            
+            <option value="">apple</option>
+            
+            <option value="">lenova</option>
+            <option value="">others</option>
+            
+            <option value="">i dont have</option>
+        </select>
+
+
+            </div>
+            
+
+            <div class="empty">
+                <button id="empty">submit</button>
+            </div>
+
+
+    
+    </form>
+
+        </section>
+
+
+</body>
+</html>

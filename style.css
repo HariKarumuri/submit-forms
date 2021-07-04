@@ -1,0 +1,165 @@
+/*body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  background-image: url(./images/ivan-didenko-jxCGoUiBAiA-unsplash.jpg);
+  text-transform: uppercase;
+  font-size: 1em;
+  padding: 0 20% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+  
+}*/
+
+ /*variables-----------------------*/
+:root{
+  --primary:#FFFFFF;
+  --secondary:  ;
+}
+
+
+
+
+ /*----resets------------------------*/
+body{
+  padding: 0;
+  margin:0;
+  text-transform: uppercase;
+  overflow-x: hidden;
+
+}
+
+
+
+
+
+ /*-------base styles-------------------*/
+.name{
+  background: rgba(255, 255, 255, 0.247);
+  border-radius: 2rem;
+  padding: .5rem;
+  
+  margin: 10px 0;
+}
+.name input{
+ 
+ background: rgba(255, 255, 255,0.5);
+ text-decoration: none ;
+ border-radius: 2rem ;
+ 
+}
+.device{
+  background: rgba(255, 255, 255, 0.247);
+  border-radius: 1.5rem;
+  padding: .5rem;
+  display: grid;
+  margin: 10px 0;
+
+}
+.laptop{
+  background: rgba(255, 255, 255, 0.247);
+  border-radius: 1.5rem;
+  padding: .5rem;
+  margin: 10px 0;
+}
+.mobile{
+  background: rgba(255, 255, 255, 0.247);
+  border-radius: 1.5rem;
+  padding: .5rem;
+  margin: 10px 0;
+}
+.tablet{
+  background: rgba(255, 255, 255, 0.247);
+  border-radius: 1.5rem;
+  padding: .5rem;
+  margin: 10px 0;
+}
+.empty{
+  display: flex;
+  background: rgba(255, 255, 255, 0.247);
+  border-radius: 1.5rem;
+  padding: .5rem;
+  margin: 10px 0;
+  justify-content: center;
+}
+.empty button{
+  background: rgba(255, 255, 255,0.5);
+  border-radius: 2rem;
+
+}
+
+
+
+
+
+ /*------------------fonts-------------------*/
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: var(--primary);
+  font-size: 20px;
+  text-shadow:
+         -1px -1px 0 #000,  
+          1px -1px 0 #000,
+          -1px 1px 0 #000,
+           1px 1px 0 #000;
+}
+
+
+
+
+
+
+
+
+
+
+ /*-----------mobile styles---------------*/
+body{
+  background-image: url(./images/ivan-didenko-jxCGoUiBAiA-unsplash.jpg);
+  
+  background-repeat: repeat;
+  background-size: cover;
+  background-position:center ;
+  margin: 10px 20px;
+}
+/*basic is moblie so no worries*/
+
+
+
+
+
+
+
+
+
+
+/*-----small screeens------------------*/
+@media screen and (min-width : 600px){
+    
+}
+
+
+
+
+
+
+ /*--large tablets and laptops-------------------*/
+ @media screen and (min-width : 768px)  {
+ body{
+     font-size: 2rem;
+     padding: 0 10%;
+     
+   }
+
+.name input{
+  padding: 1.5rem;
+}
+.empty button,.name input,.laptop select,.mobile select,.tablet select{
+  padding: 0.5rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+
+ }
